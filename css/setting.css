@@ -1,0 +1,143 @@
+.change-pass-head {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    text-transform: capitalize;
+}
+
+.settings {
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-back {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+}
+
+.zoom-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/battle_image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    animation: zoom 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: -2;
+    overflow: hidden;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.set {
+    background-color: white;
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+}
+
+.dat {
+    line-height: 3;
+    border-right: solid 2px #eee;
+    padding: 0px 30px;
+}
+
+.detail {
+    margin-bottom: 30px;
+}
+
+.chnage-pass {
+    margin-bottom: 40px;
+}
+
+.update {
+    padding: 5px 30px;
+    background-color: #e4a101;
+    border: none;
+    box-shadow: inset 4px 6px 20px 0px white;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.label-head {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.pass {
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.meaning {
+    padding: 0px 30px;
+}
+
+.meaning-head {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    font-size: 16px;
+}
+
+.pass-intruction {
+    list-style-type: none;
+    line-height: 3;
+}
+
+.del {
+    background-color: white;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.del-head {
+    padding: 50px 0px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.del-acc-btn {
+    padding: 5px 30px;
+    background-color: red;
+    border: none;
+    box-shadow: inset 4px 6px 20px 0px white;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 3;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) /* smaller than 768px*/
+{
+}
+
+@media only screen and (min-width: 768px)  /*greater than 768px*/
+{
+}
+
+@media only screen and (max-width: 992px)  /* smaller than 992px */
+{
+}

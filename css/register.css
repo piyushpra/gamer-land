@@ -1,0 +1,133 @@
+body {
+    margin: 0!important;
+}
+
+.disable-select {
+    user-select: none;
+}
+
+.dark_bg {
+    overflow: hidden;
+    position: relative;
+}
+
+.dark_bg_img {
+    height: 100%;
+    transition: all 0.5s;
+    transform: translateY(1200px);
+}
+
+.orange_bg {
+    background-color: #1565c0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.5s;
+    transform: translateY(1200px);
+    position: absolute;
+}
+
+.main_bg {
+    background-color: #55acee;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    transform: translateY(1200px);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_area>h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 800;
+    color: white;
+    text-transform: capitalize;
+}
+
+.form_area>p {
+    color: red;
+    text-align: center;
+}
+
+.home {
+    position: absolute;
+    font-size: 40px;
+    top: 0;
+    right: 0;
+    margin: 50px;
+    color: white;
+}
+
+.back {
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    margin: 50px;
+    color: white;
+}
+
+.back:hover, .back:focus, .home:hover, .home:focus {
+    text-decoration: none;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.53);
+    width: 400px;
+    line-height: 1;
+    padding: 40px;
+    box-shadow: 0 0 40px #1565c0;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid 2px #55acee;
+}
+
+input[type="password"] {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px #55acee;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+}
+
+.form_buttons {
+    display: flex;
+}
+
+.register_button, .login_button {
+    padding: 15px 30px;
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+    border: solid white 1px;
+    box-shadow: 0px 0px 40px #1565c0, inset 0 0 10px 0px;
+    background: linear-gradient(#55acee, #1565c0);
+    border-radius: 5px;
+}
+
+.register_button:focus, .login_button:focus {
+    outline: none;
+}
+
+.register_button:hover, .login_button:hover {
+    box-shadow: 0px 0px 40px #1565c0, inset 0 0 10px 0px;
+    background: linear-gradient(#5cb8ff, #186dce);
+    text-decoration: none;
+    color: white;
+}

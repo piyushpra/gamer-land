@@ -1,0 +1,134 @@
+.disable-select {
+    user-select: none;
+}
+
+.u-profile {
+    display: flex;
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-submittion {
+    background-color: white;
+}
+
+.welcome-back {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+}
+
+.zoom-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/battle_image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    animation: zoom 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: -2;
+    overflow: hidden;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.profile {
+    padding: 20px;
+    margin: 0;
+}
+
+.profile-select {
+    padding: 20px;
+}
+
+.user-profile-photo {
+    width: 100%;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info-form {
+    width: 100%;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+input.p_d, select#country, select#languages {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px lightgrey;
+    margin-top: 10px;
+}
+
+.p-detail, .address {
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.p-detail-head, .address-head {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.form-buttons {
+    margin-top: 100px;
+}
+
+.button {
+    padding: 15px 40px;
+    margin-right: 40px;
+    background-color: #e4a101;
+    box-shadow: inset 4px 4px 20px 0px #ce9100;
+    border: #e4a101;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) /* smaller than 768px*/
+{
+}
+
+@media only screen and (min-width: 768px)  /*greater than 768px*/
+{
+}
+
+@media only screen and (max-width: 992px)  /* smaller than 992px */
+{
+    section.u-profile {
+        display: block;
+    }
+
+    .profile {
+        margin: auto;
+    }    
+}
